@@ -1,16 +1,79 @@
-### Hi there 👋
-
-<!--
-**Herlanbots/herlanbots** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+from time import sleep #verde \033[32m #alzul \033[34m #amarelo \033[31m #\033[33m⟺⟺⟺⟺⟺⟺⟺⟺⟺⟺⟺⟺⟺⟺⟺⟺
+nome = input ('\033[32m DIGITE SEU NOME : ')
+print (f'\033[34m AQUI VOCE ESTA NO MEU MENU {nome} ') 
+print (f'\033[33m VAMOS COMEÇAR {nome} ')
+while True:
+	sleep(3)
+	print ('\033[31m AGUARDE ENSTAMOS VOLTANDO PRO MENU....')
+	sleep(5)
+	print (' \033[32m         ⚠️  ⟨ NÃO ME RESPONSABILIZO PELOS SEUS ATOS! ⟩ ⚠️ ')
+	sleep(1)
+	print ('\033[33m [1] HACK EM FORMA DE LINK ✓')
+	sleep(1)
+	print ('\033[31m [2] DA SPAM NÚMERO TELEFONE✓ ')
+	sleep(1)
+	print ('\033[34m [3] DERRUMA A INTERNET PELO IP ')
+	sleep(1)
+	ter = input ('\033[34m DIGITE O QUE ESTA DENTRO DO MENU [ ]:  ')
+	if ter == '1' :
+		print ('\033[32m AQUI SEUS COMADOS , COPIA E COLA NO TERMUX  ')
+		sleep(1)
+		print ('\033[31m apt update ')
+		sleep(0.5)
+		print ('\033[32m apt upgrade ')
+		sleep(0.4)
+		print ('\033[33m apt install python ')
+		sleep(0.4)
+		print ('\033[34m apt install git ')
+		sleep(0.3)
+		print ('\033[33m git clone git://github.com/htr-tech/zphisher.git ')
+		sleep(0.2)
+		print ('\033[32m cd zphisher')
+		sleep(1)
+		print ('\033[31m bash zphisher.sh ')
+	elif ter == '7' :
+		print ('digite novqmentw o que estq dentro do menu ')
+	if ter == '2':
+		print ('\033[31m pkg update && pkg upgrade -y ')
+		sleep(1)
+		print ('\033[32m pkg install python ')
+		sleep(0.4)
+		print ('\033[33m pkg install python 2 ')
+		sleep(1)
+		print ('\033[34m pkg install curl ')
+		sleep(1)
+		print ('\033[32m pkg install php ')
+		sleep(1)
+		print ('\033[31m pkg install figlet ')
+		sleep(1)
+		print ('\033[32m pkg install toilet ')
+		sleep(1)
+		print ('\033[33m pkg install git ')
+		sleep(1)
+		print ('\033[34m git clone  https://github.com/4L13199/LITESPAM ')
+		sleep(1)
+		print ('\033[32m ls ')
+		sleep(1)
+		print ('\033[33m cd LITESPAM ')
+		sleep(1)
+		print ('\033[34m ls ')
+		sleep (2) 
+		print ('\033[32m sh LITESPAM.sh ')
+		sleep(3)
+		print ('contém  ferramentas de spammer com vários tipos com limites altos, até mesmo estimado ilimitado, criado com base em todas as contribuições de codificadores para coletar suas ferramentas aqui, o spam não transformando você em hackers, cibernéticos, crackers, anônimos e seus capangas. Spamming apenas para uma boa finalidade não viola as leis e regras ')
+	if ter == '3':
+		print (f'\033[33m EM {nome} ESTA AQUI O COMADOS FAMOSSO DDOS   ')
+		print ('\033[31m pkg install python ')
+		sleep(1)
+		print ('\033[32m pkg install python2 ')
+		sleep(1)
+		print ('\033[33m pkg install git ')
+		sleep(1)
+		print ('\033[34m git clone https://github.com/pembriahmad/DDOS ')
+		print ('\033[31m cd DDOS ')
+		sleep(1)
+		print ('\033[34m python2 ddos.py ')
+		sleep(1)
+		print (' PORTAL 80 ')
+		sleep(1)
+		print('	Um dispositivo simples para atacar um site ou servidor script Termux python')
